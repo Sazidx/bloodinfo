@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>রক্তদাতা তথ্য</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>🩸 Pray for Students of Milestone School and College</h1>
+
+    <div class="filters">
+        <label for="bloodFilter">রক্তের গ্রুপ:</label>
+        <select id="bloodFilter">
+            <option value="">সব</option>
+        </select>
+
+        <label for="locationFilter">ঠিকানা/এলাকা:</label>
+        <select id="locationFilter">
+            <option value="">সব</option>
+        </select>
+    </div>
+
+    <table id="donorTable">
+        <thead>
+            <tr>
+                <th>নাম</th>
+                <th>রক্তের গ্রুপ</th>
+                <th>মোবাইল নম্বর</th>
+                <th>ঠিকানা</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Donor rows will be inserted here by JS -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
